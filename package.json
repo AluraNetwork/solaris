@@ -1,0 +1,35 @@
+{
+  "name": "solaris",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dyamuh",
+  "license": "MIT",
+  "description": "have you ever tried writing random bull crap that says what the code is about? yea i know right, people actually do that!",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dom-serializer": "^2.0.0",
+    "domhandler": "^5.0.3",
+    "domutils": "^3.2.2",
+    "express": "^5.1.0",
+    "htmlparser2": "^10.0.0",
+    "http-proxy": "^1.18.1",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/http-proxy": "^1.17.16",
+    "@types/node": "^22.15.30",
+    "@types/node-fetch": "^2.6.12",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

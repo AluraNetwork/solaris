@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>Solaris</title></head>
+<body>
+  <h2 style="font-family: sans-serif;">Solaris Search</h2>
+
+  <form id="search-form">
+    <input type="text" id="url" placeholder="Search or enter a URL" />
+    <button type="submit">Search</button>
+  </form>
+<script>
+  function go(event) {
+    event?.preventDefault();
+    const input = document.getElementById('url').value.trim();
+    console.log("User input:", input); 
+
+    const encoded = btoa(input);
+    const target = '/proxy?url=' + encoded;
+    console.log("Redirecting to:", target); 
+
+    window.location.href = target;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('search-form');
+    form.addEventListener('submit', go);
+  });
+
+  navigator.serviceWorker.register('/sw.js');
+</script>
+
+</body>
+
+
+</html>
