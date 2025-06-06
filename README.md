@@ -1,1 +1,23 @@
-<div align="center"><img src="solaris.png" height="200" /></div>---> [!WARNING]> Solaris is currently strictly still in development. This is not an "everything compatible" option to use in your site as the main option YET.<a href="">/></a>Solaris is an EXPERIMENTAL web proxy built to bypass browser or network wide restrictions all while maintaing your privacy with 0% logging. #### Building-   Clone the repository with `git clone --recursive https://github.com/Phantom-Proxies/solaris`-   Install the dependencies with `npm i`-   ### Running Solaris You can run solaris using the following command:```shnpx ts-node src/index.ts```Solaris should now be running on port 3000. Enjoy!
+<div align="center">
+  <img src="solaris.png" height="200" />
+</div>
+
+> [!WARNING]  
+> **Solaris is currently strictly still in development.**  
+> This is not an "everything compatible" option to use in your site as the main option **YET**.
+
+---
+
+**Solaris** is an **experimental web proxy** built to bypass browser or network-wide restrictions — all while maintaining your privacy with **0% logging**.
+
+---
+
+### 🔧 Building
+
+1. Clone the repository:
+   ```sh
+   git clone --recursive https://github.com/Phantom-Proxies/solaris
+
+2. Install needed packages:
+   ```sh
+   npm i
