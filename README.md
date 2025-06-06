@@ -12,7 +12,7 @@
 
 ---
 
-### 🔧 Building
+### 🔧 Using Demo
 
 1. Clone the repository:
    ```sh
@@ -21,3 +21,7 @@
 2. Install needed packages:
    ```sh
    npm i
+
+3. Run the server:
+   ```sh
+   npx ts-node src/index.ts
