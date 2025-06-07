@@ -24,4 +24,4 @@
 
 3. Run the server:
    ```sh
-   npx ts-node src/index.ts
+   npm run start

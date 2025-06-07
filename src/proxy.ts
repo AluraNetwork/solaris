@@ -1,3 +1,4 @@
+import path from 'path';
 import { RequestHandler } from 'express';
 import { decodeUrl } from './utils';
 import { rewriteHtml } from './rewrite';
@@ -6,7 +7,7 @@ export const proxyRequest: RequestHandler = async (req, res) => {
 const raw = req.query.url as string;
 
 if (!raw) {
-  res.status(400).send('Missing ?url parameter.');
+  res.status(404).sendFile(path.join(__dirname, '../public/404.html'));
   return;
 }
 
