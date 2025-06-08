@@ -17,6 +17,7 @@ if (!targetUrl.includes('.')) {
   targetUrl = `https://www.startpage.com/do/search?query=${encodeURIComponent(targetUrl)}`;
 }
 
+
 console.log(`[Proxying] ${targetUrl}`);
 
 

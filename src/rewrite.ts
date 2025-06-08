@@ -30,7 +30,7 @@ export function rewriteHtml(html: string, baseUrl: string): string {
   });
 
   const script = new DomElement('script', {});
-  script.children = [new Text(`console.log('🔧 HyperProxy injection active');`)];
+  script.children = [new Text(`console.log('Injection Live!');`)];
 
   const head = DomUtils.findOne(
     (el): el is DomElement => el.type === 'tag' && el.name === 'head',
