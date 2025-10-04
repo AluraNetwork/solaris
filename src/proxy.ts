@@ -14,7 +14,7 @@ if (!raw) {
 let targetUrl = decodeUrl(raw);
 
 if (!targetUrl.includes('.')) {
-  targetUrl = `https://www.startpage.com/do/search?query=${encodeURIComponent(targetUrl)}`;
+  targetUrl = `https://duckduckgo.com/?q=${encodeURIComponent(targetUrl)}`;
 }
 
 
